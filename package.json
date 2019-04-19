@@ -5,8 +5,9 @@
   "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  }
+  "author": "Qamar A. Stationwala",
+  "repository": "lordkriegan/game_of_nodes",
   "license": "ISC",
   "bin": {
     "gameofnodes": "./cli.js"
