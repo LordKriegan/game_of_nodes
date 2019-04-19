@@ -1,0 +1,26 @@
+{
+  "name": "@lordkriegan/game_of_nodes",
+  "version": "1.0.0",
+  "description": "Kill some white walkers!",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "gameofnodes": "./cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.3.1"
+  }, 
+  "keywords": [
+    "White",
+    "Walkers",
+    "Game",
+    "of",
+    "Nodes",
+    "Thrones"
+  ]
+}
