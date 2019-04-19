@@ -1,11 +1,11 @@
 {
   "name": "@lordkriegan/game_of_nodes",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Kill some white walkers!",
   "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
   "author": "Qamar A. Stationwala",
   "repository": "lordkriegan/game_of_nodes",
   "license": "ISC",
