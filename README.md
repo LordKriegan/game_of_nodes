@@ -20,6 +20,6 @@ To add a new game:
     You can use the clog function in helpers/helpers.js to display info to user. It takes in a single argument of an array of strings.
 
 Changelog:
-4.0
+4.0.0
 Seperated cli.js in order to add expandability for more games.
 Added hangman game

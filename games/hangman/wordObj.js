@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var wordlist = require('./wordlist.js');
 var charObj = require('./charObj.js');
 

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var inquirer = require('inquirer');
 var wordObj = require('./wordObj.js');
 var hangmanVisual = require('./hangmanVisual.js');
