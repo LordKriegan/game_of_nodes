@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const { prompt } = require('inquirer');
 const chalk = require('chalk');
-const {clog, startMenu} = require('../helpers/helpers.js');
+const {clog} = require('../helpers/helpers.js');
 
 let whiteWalker = 15;
 let whiteWalkersKilled = 0;
@@ -44,7 +44,7 @@ const startGame = () => {
 
 const endGame = () => {
     clog(["You killed " + whiteWalkersKilled + " White Walkers before", (user <= 0) ? "dying gloriously!" : "fleeing like a coward!"]);
-    // startMenu();
+    require('../cli')();
 }
 
 const playGame = () => {
