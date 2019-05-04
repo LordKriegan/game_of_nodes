@@ -17,9 +17,15 @@ To add a new game:
 
     Ex: require('../cli.js')();
 
+    Include the following line at the top of all .js files: 
+
+    #!/usr/bin/env node
+
     You can use the clog function in helpers/helpers.js to display info to user. It takes in a single argument of an array of strings.
 
 Changelog:
+4.0.1
+Fixed hangman glitch where it would not recognize a fully guessed word immediately.
 4.0.0
 Seperated cli.js in order to add expandability for more games.
 Added hangman game
